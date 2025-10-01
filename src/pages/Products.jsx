@@ -6,7 +6,7 @@ import Productcart from "../components/Productcart";
 import Pagination from "../components/Pagination";
 import Lottie from "lottie-react";
 import notfound from "../assets/notfound.json";
-import Mobilefilter from "../components/mobilefilter";
+import Mobilefilter from "../components/Mobilefilter";
 const Products = () => {
   const { data, getingallproducts } = useData();
   const [search, setsearch] = useState("");
