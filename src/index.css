@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+.cl-avatarBox{
+    width: 2rem;
+    height: 2rem;
+}
+.arrows{
+    width: 40px;
+    height: 40px;
+    margin: 1px;
+}
+input {
+    background-color: #ffffff;
+    accent-color: red;
+    border: 1px solid #cccccc;
+    color: #333333;
+}
