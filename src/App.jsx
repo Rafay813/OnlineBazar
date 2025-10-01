@@ -8,7 +8,7 @@ import Cart from "./pages/Cart";
 import Navbar from "./components/Navbar";
 import axios from "axios";
 import Footer from "./components/Footer";
-import Singleproductpage from "./pages/singleproductpage";
+import Singleproductpage from "./pages/Singleproductpage";
 import Categoryproduct from "./components/Categoryproduct";
 import { useCart } from "./context/Cartcontext";
 import ProtectedRoute from "./components/ProtectedRoute";
