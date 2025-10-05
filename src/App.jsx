@@ -18,7 +18,7 @@ const App = () => {
 
   const [mylocation, setlocation] = useState(null); // ✅ state yahan rakho
   const [opendropdown, setopendropdown] = useState(false);
-  const { cartItem, setCartItem } = useCart()
+  const { cartItem } = useCart()
   const getLocation = async () => {
     navigator.geolocation.getCurrentPosition(async (pos) => {
       const { latitude, longitude } = pos.coords;
